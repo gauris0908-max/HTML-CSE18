@@ -1,101 +1,35 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Haldiram-style — Sweets & Namkeen</title>
-  <style>
-    :root{
-      --brand:#d32f2f; /* deep red */
-      --accent:#f7c948; /* saffron/gold */
-      --muted:#6b6b6b;
-      --card:#fff7e6;
-      --bg:#fffdf9;
-      --shadow: 0 6px 18px rgba(0,0,0,0.08);
-      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:#222}
-
-    header{background:linear-gradient(90deg,var(--brand), #b71c1c);color:white;padding:14px 20px;position:sticky;top:0;z-index:20}
-    .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:18px}
-    .logo{font-weight:800;letter-spacing:1px;font-size:20px}
-    nav{margin-left:auto;display:flex;gap:12px;align-items:center}
-    nav a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px}
-    nav a:hover{background:rgba(255,255,255,0.08)}
-
-    .container{max-width:1100px;margin:28px auto;padding:0 20px}
-
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center}
-    .hero-card{background:linear-gradient(180deg,#fff,#fff9f2);padding:28px;border-radius:14px;box-shadow:var(--shadow)}
-    .hero h1{margin:0;font-size:34px;color:var(--brand)}
-    .hero p{color:var(--muted);margin-top:8px}
-    .search{margin-top:18px;display:flex;gap:8px}
-    .search input{flex:1;padding:12px;border-radius:10px;border:1px solid #eee;font-size:16px}
-    .search button{background:var(--brand);color:white;border:none;padding:12px 16px;border-radius:10px;font-weight:700}
-
-    .promo{background:var(--card);padding:18px;border-radius:12px;text-align:center}
-    .promo h3{margin:0;color:#7a2a2a}
-    .promo p{margin:6px 0 0;color:var(--muted)}
-
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
-    .card{background:white;border-radius:12px;padding:14px;box-shadow:var(--shadow);display:flex;flex-direction:column}
-    .card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
-    .card h4{margin:12px 0 6px}
-    .price{font-weight:700;color:var(--brand)}
-    .meta{color:var(--muted);font-size:13px}
-    .row{display:flex;justify-content:space-between;align-items:center;margin-top:auto}
-    .btn{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;font-weight:700}
-
-    footer{margin-top:40px;padding:32px 20px;background:#fff;border-top:1px solid #eee}
-    .footer-inner{max-width:1100px;margin:0 auto;display:flex;gap:20px;flex-wrap:wrap}
-    .col{min-width:200px}
-    .small{color:var(--muted);font-size:13px}
-
-    @media (max-width:900px){
-      .hero{grid-template-columns:1fr}
-      .grid{grid-template-columns:repeat(2,1fr)}
-    }
-    @media (max-width:600px){
-      .grid{grid-template-columns:1fr}
-      nav{display:none}
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="nav">
-      <div class="logo">Haldiram<span style="opacity:.9;font-weight:600;margin-left:6px;">—Sweets & Namkeen</span></div>
-      <nav>
-        <a href="#sweets">Sweets</a>
-        <a href="#namkeen">Namkeen</a>
-        <a href="#offers">Offers</a>
-        <a href="#contact">Contact</a>
-      </nav>
+<!DOCTYPE html>
+      padding: 0;
+      <img src="https://www.haldirams.com/media/catalog/product/1/0/10106124_1.jpg" alt="Rasgulla">
+      <h3>Rasgulla</h3>
+      <p>Soft and spongy Bengali sweet dipped in sugar syrup.</p>
+      <a href="https://www.haldirams.com/rasgulla.html" target="_blank">Buy Now</a>
     </div>
-  </header>
+    <div class="card">
+      <img src="https://www.haldirams.com/media/catalog/product/1/0/10106118_1.jpg" alt="Gulab Jamun">
+      <h3>Gulab Jamun</h3>
+      <p>Classic sweet made with khoya, fried and soaked in syrup.</p>
+      <a href="https://www.haldirams.com/gulab-jamun.html" target="_blank">Buy Now</a>
+    </div>
+  </section>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-card">
-        <h1>Fresh Indian Sweets & Crunchy Namkeen</h1>
-        <p>Traditional recipes, premium ingredients — delivered to your door. Pick from sweets, snacks, and gift boxes.</p>
+  <section id="namkeen" class="container">
+    <div class="card">
+      <img src="https://www.haldirams.com/media/catalog/product/1/0/10106058_1.jpg" alt="Aloo Bhujia">
+      <h3>Aloo Bhujia</h3>
+      <p>Crispy potato sticks blended with spices.</p>
+      <a href="https://www.haldirams.com/aloo-bhujia.html" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <img src="https://www.haldirams.com/media/catalog/product/1/0/10106146_1.jpg" alt="Moong Dal">
+      <h3>Moong Dal</h3>
+      <p>Crunchy fried moong dal seasoned with salt.</p>
+      <a href="https://www.haldirams.com/moong-dal.html" target="_blank">Buy Now</a>
+    </div>
+  </section>
 
-        <div class="search">
-          <input id="searchInput" placeholder="Search sweets, namkeen, box sets..." />
-          <button onclick="doSearch()">Search</button>
-        </div>
-
-        <div style="display:flex;gap:12px;margin-top:20px">
-          <div class="promo" style="flex:1">
-            <h3>Festive Boxes</h3>
-            <p>Special discounts on bulk & festival boxes.</p>
-          </div>
-          <div class="promo" style="flex:1">
-            <h3>Free Shipping</h3>
-            <p>Above ₹799 for selected cities.</p>
-          </div>
-        </div>
-      </div>
-
-      <
+  <footer>
+    <p>©️ 2025 Sweets & Namkeen | Inspired by Haldiram</p>
+  </footer>
+</body>
+</html>
