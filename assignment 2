@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books and Novels</title>
+</head>
+<body>
+    <!-- Semantic element -->
+    <header>
+        <h1>Welcome to the World of Books & Novels</h1>
+        <nav>
+            <a href="https://www.goodreads.com" target="_blank">Goodreads</a> |
+            <a href="https://www.wikipedia.org/wiki/Novel" target="_blank">About Novels</a>
+        </nav>
+    </header>
+
+    <!-- Semantic element -->
+    <section>
+        <h2>Popular Novels</h2>
+        <!-- Non-semantic div -->
+        <div>
+            <p>One of the most famous fantasy series is <span style="color:darkblue;">Harry Potter</span>.</p>
+            <a href="https://www.jkrowling.com/" target="_blank">
+                <img src="https://m.media-amazon.com/images/I/81iqZ2HHD-L.jpg" alt="Harry Potter Book" width="150">
+            </a>
+        </div>
+
+        <div>
+            <p>Another timeless classic is <span style="color:maroon;">Pride and Prejudice</span>.</p>
+            <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4pudTtcQ9DevTSxY_zShCIlBoVnYP6fNaJQ&s" alt="Pride and Prejudice Book" width="150">
+            </a>
+        </div>
+    </section>
+
+    <!-- Media hyperlink -->
+    <section>
+        <h2>Listen to Audiobooks</h2>
+        <p>Enjoy this audiobook sample:</p>
+        <a href="https://youtu.be/6XIPkMFZf-0?si=IO6IAsjAsuU_--LW" target="_blank">
+            <video width="250" controls>
+                <source src="https://youtu.be/6XIPkMFZf-0?si=IO6IAsjAsuU_--LW" type="video/mp4">
+                Harry Potter and the Philospher Stone audio book.
+            </video>
+        </a>
+    </section>
+
+    <footer>
+        <p>Created by Gauri Singh | Assignment 2</p>
+    </footer>
+</body>
+</html>
